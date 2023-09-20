@@ -15,7 +15,7 @@ public class Taksimetre {
 
         total += (herKm * km) ;
 
-        //minimum tutar 20 tl alınacağı için ? fonksiyonunu kullanıcaz
+        //minimum tutar 20 tl alınacağı için ? fonksiyonunu kullanacağız
         total = (total < 20) ? 20 : total;
 
         System.out.println("Toplam tutar : " + total);
